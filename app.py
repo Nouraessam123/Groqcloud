@@ -77,5 +77,6 @@ def submit_answer():
     })
 
 # 🟡 هذا السطر غير مطلوب في Vercel لكن كويس لو هتجربي محليًا
-# if __name__ == "__main__":
-#     app.run(debug=True)
+if __name__ == "__main__":
+    print("Starting Flask app... 🚀")
+    app.run(debug=True)
