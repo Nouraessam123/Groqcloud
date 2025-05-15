@@ -19,7 +19,7 @@ def call_groq_model(prompt):
 
     body = {
         "messages": [{"role": "user", "content": prompt}],
-        "model": "mixtral-8x7b-32768"  # أو llama3 لو حابة
+        "model": "whisper-large-v3-turbo"  # أو llama3 لو حابة
     }
 
     response = requests.post("https://api.groq.com/openai/v1/chat/completions", headers=headers, json=body)
