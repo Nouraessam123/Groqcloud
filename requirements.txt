@@ -1,5 +1,4 @@
-flask
+Flask
 flask-cors
-transformers
-torch
 vaderSentiment
+requests
